@@ -1,0 +1,7 @@
+library(dplyr)
+trait_1<-c(rep(1,33),rep(0,67))
+trait_2<-c(rep(0,33),rep(1,33),rep(0,34))
+trait_3<-c(rep(0,66),rep(1,34))
+Pop_label<-data.frame(trait_1,trait_2,trait_3)
+names(Pop_label)<-c("1","2","3")
+write.table(Pop_label,file="Pop_label",sep=",",col.names=FALSE,row.names=FALSE)
