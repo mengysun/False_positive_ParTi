@@ -18,6 +18,3 @@ Pareto_Fig3.m (run the Pareto_pop.m in datasets simulated using different demogr
 Pareto_p_hacking.m (Fig.4)
 
 *Yeast_gmt folder contains the GO term information used in Fig.1
-
-
-
